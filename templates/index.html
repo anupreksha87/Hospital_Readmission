@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+<p align="right">
+<input type="button" value='Flask Monitoring Dashboard' onClick="parent.open('http://127.0.0.1:5000/dashboard')">
+</p>
+    <div style="color:white">
+	     <h1 style="color:black;font-family:monospace"> HOSPITAL READMISSION </h1>
+<TABLE WIDTH="100%">
+	<TR>
+		<TH>
+			<h3 style="color:blue;font-size:30px;text-align: center;">Upload a csv/excel file(for multiple review prediction)</h3>
+		</TH>
+		<TD>
+			<form class="" action="bulk_predict" method="POST" enctype = "multipart/form-data">
+			<input id="second" type="file" name="csvfile" value="">
+			<input id="third" type="submit" name="" value="Submit">
+			</form>
+		</TD>
+		<TD></TD>
+		<TH>
+			<h3 style="color:blue;font-size:30px;text-align: center;">Select File For Retraining Model</h3>
+		</TH>
+		<TD>
+			<form class="" action="retraining" method="POST" enctype = "multipart/form-data">
+			<input id="fourth" type="file" name="retrain_file" value="">
+			<input id="fifth" type="submit" name="" value="Retrain">
+			</form>
+		</TD>
+
+        <br><h3 style="color:Navy; font-size:30px;">{{ text }}<h3>
+		
+		</TD>
+	</TR>
+</TABLE>
+
+	
+         <br><h3 style="color:Navy; font-size:30px;">{{ prediction_text }}<h3>
+       <br> <h2 style="color:black;"> FOR SINGLE INPUT</h2>
+
+        <form action="{{ url_for('predict')}}" method="post">
+
+            <br><h3 style="color:blue;">Time_in_hospital(In Days)</h3><br><input id="first" name="time_in_hospital" type="number">
+            <h3 style="color:blue;">Num_lab_procedures</h3><br><input id="second" name="num_lab_procedures" type="number">
+            <h3 style="color:blue;">Age</h3><input id="third" name="age" type="number">
+            <h3 style="color:blue;">Num_medications</h3><br><input id="fourth" name="num_medications" type="number">
+            <h3 style="color:blue;">Num_procedures</h3><br><input name="num_procedures" id="fifth" type="number">
+            <h3 style="color:blue;">Number_diagnoses</h3><br><input name="number_diagnoses" id="sixth" type="number">
+
+            <br><br><button id="sub" type="submit ">Predict</button>
+            <br>
+          </form>
+
+            
+
+
+    </div>
+
+
+
+
+    <style>
+		table, th, td {
+			border: 1px solid black;
+			padding: 5px;
+			text-align: left;
+		}
+		body{
+            background-image: url('https://i.dietdoctor.com/wp-content/uploads/2019/06/GettyImages-1128689648.jpg?auto=compress%2Cformat&w=1200&h=');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            text-align: center;
+            padding: 0px;
+        }
+
+        #research {
+            font-size: 18px;
+            width: 100px;
+            height: 23px;
+            top: 23px;
+        }
+
+        #box {
+            border-radius: 60px;
+            border-color: 45px;
+            border-style: solid;
+            font-family: cursive;
+            text-align: center;
+            background-color: rgb(168, 131, 61);
+            font-size: medium;
+            position: absolute;
+            width: 700px;
+            bottom: 9%;
+            height: 850px;
+            right: 30%;
+            padding: 0px;
+            margin: 0px;
+            font-size: 14px;
+        }
+
+        #fuel {
+            width: 83px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 20px;
+        }
+
+        #fuel:hover {
+            background-color: coral;
+        }
+
+        #research {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #research:hover {
+            background-color: coral;
+        }
+
+        #resea {
+            width: 99px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #resea:hover {
+            background-color: coral;
+        }
+
+        #sub {
+            width: 120px;
+            height: 43px;
+            text-align: center;
+            border-radius: 14px;
+            font-size: 18px;
+        }
+
+        #sub:hover {
+            background-color: darkcyan;
+        }
+
+        #first {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #second {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #third {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #fourth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #fifth{
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+        #sixth {
+            border-radius: 14px;
+            height: 25px;
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</body>
+
+</html>
+

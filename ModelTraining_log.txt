@@ -1,0 +1,120 @@
+2020-08-29/11:50:40		=========== Start of Training =============
+2020-08-29/11:50:40		Entered the dropColumns method of the cleaner class.
+2020-08-29/11:50:40		drop column is a success. Exited the drop_column method of the cleaner class
+2020-08-29/11:50:40		Entered the replace_higher_null_values  method of the cleaner class.
+2020-08-29/11:50:40		replace null_values of payer_code is a succes of the cleaner class
+2020-08-29/11:50:40		replace_higher_null_values is a success. Exited the replace_higher_null_values method of the cleaner class
+2020-08-29/11:50:40		Entered the recategorize_age  method of the cleaner class.
+2020-08-29/11:50:40		recategorize is a success . Exited the recategorize_age method of the cleaner class
+2020-08-29/11:50:40		Entered the encode_target_variable  method of the cleaner class.
+2020-08-29/11:50:40		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/11:50:40		Entered the reduce_levels  method of the cleaner class.
+2020-08-29/11:50:41		reduce_levels is a success. Exited the reduce_levels method of the cleaner class
+2020-08-29/11:50:41		Entered the encodecategoricalvalues method of the cleaner class.
+2020-08-29/11:50:41		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/11:50:41		Entered the reduce_skewness method of the cleaner class.
+2020-08-29/11:50:42		remove_skewness is a success. Exited the remove_skewness method of the cleaner class
+2020-08-29/11:50:42		Entered the feature_scaling method of the cleaner class.
+2020-08-29/11:50:42		Entered the feature_scaling method of the cleaner class.
+2020-08-29/11:50:42		X_cv_top_6,y have created sucessfully
+2020-08-29/11:51:16		=========== Training Succesfull =============
+2020-08-29/12:22:57		=========== Start of Training =============
+2020-08-29/12:22:57		Entered the dropColumns method of the cleaner class.
+2020-08-29/12:22:57		drop column is a success. Exited the drop_column method of the cleaner class
+2020-08-29/12:22:57		Entered the replace_higher_null_values  method of the cleaner class.
+2020-08-29/12:22:57		replace null_values of payer_code is a succes of the cleaner class
+2020-08-29/12:22:57		replace_higher_null_values is a success. Exited the replace_higher_null_values method of the cleaner class
+2020-08-29/12:22:57		Entered the recategorize_age  method of the cleaner class.
+2020-08-29/12:22:57		recategorize is a success . Exited the recategorize_age method of the cleaner class
+2020-08-29/12:22:57		Entered the encode_target_variable  method of the cleaner class.
+2020-08-29/12:22:57		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:22:57		Entered the reduce_levels  method of the cleaner class.
+2020-08-29/12:22:57		reduce_levels is a success. Exited the reduce_levels method of the cleaner class
+2020-08-29/12:22:57		Entered the encodecategoricalvalues method of the cleaner class.
+2020-08-29/12:22:57		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:22:57		Entered the reduce_skewness method of the cleaner class.
+2020-08-29/12:22:57		remove_skewness is a success. Exited the remove_skewness method of the cleaner class
+2020-08-29/12:22:57		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:22:57		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:22:57		X_cv_top_6,y have created sucessfully
+2020-08-29/12:22:57		=========== Training Succesfull =============
+2020-08-29/12:24:19		=========== Start of Training =============
+2020-08-29/12:24:19		Entered the dropColumns method of the cleaner class.
+2020-08-29/12:24:19		drop column is a success. Exited the drop_column method of the cleaner class
+2020-08-29/12:24:19		Entered the replace_higher_null_values  method of the cleaner class.
+2020-08-29/12:24:19		replace null_values of payer_code is a succes of the cleaner class
+2020-08-29/12:24:19		replace_higher_null_values is a success. Exited the replace_higher_null_values method of the cleaner class
+2020-08-29/12:24:19		Entered the recategorize_age  method of the cleaner class.
+2020-08-29/12:24:19		recategorize is a success . Exited the recategorize_age method of the cleaner class
+2020-08-29/12:24:19		Entered the encode_target_variable  method of the cleaner class.
+2020-08-29/12:24:19		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:24:19		Entered the reduce_levels  method of the cleaner class.
+2020-08-29/12:24:19		reduce_levels is a success. Exited the reduce_levels method of the cleaner class
+2020-08-29/12:24:19		Entered the encodecategoricalvalues method of the cleaner class.
+2020-08-29/12:24:19		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:24:19		Entered the reduce_skewness method of the cleaner class.
+2020-08-29/12:24:19		remove_skewness is a success. Exited the remove_skewness method of the cleaner class
+2020-08-29/12:24:19		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:24:19		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:24:19		X_cv_top_6,y have created sucessfully
+2020-08-29/12:24:20		=========== Training Succesfull =============
+2020-08-29/12:25:08		=========== Start of Training =============
+2020-08-29/12:25:08		Entered the dropColumns method of the cleaner class.
+2020-08-29/12:25:08		drop column is a success. Exited the drop_column method of the cleaner class
+2020-08-29/12:25:08		Entered the replace_higher_null_values  method of the cleaner class.
+2020-08-29/12:25:08		replace null_values of payer_code is a succes of the cleaner class
+2020-08-29/12:25:08		replace_higher_null_values is a success. Exited the replace_higher_null_values method of the cleaner class
+2020-08-29/12:25:08		Entered the recategorize_age  method of the cleaner class.
+2020-08-29/12:25:08		recategorize is a success . Exited the recategorize_age method of the cleaner class
+2020-08-29/12:25:08		Entered the encode_target_variable  method of the cleaner class.
+2020-08-29/12:25:08		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:25:08		Entered the reduce_levels  method of the cleaner class.
+2020-08-29/12:25:08		reduce_levels is a success. Exited the reduce_levels method of the cleaner class
+2020-08-29/12:25:08		Entered the encodecategoricalvalues method of the cleaner class.
+2020-08-29/12:25:09		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:25:09		Entered the reduce_skewness method of the cleaner class.
+2020-08-29/12:25:09		remove_skewness is a success. Exited the remove_skewness method of the cleaner class
+2020-08-29/12:25:09		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:25:09		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:25:09		X_cv_top_6,y have created sucessfully
+2020-08-29/12:25:33		=========== Training Succesfull =============
+2020-08-29/12:26:09		=========== Start of Training =============
+2020-08-29/12:26:09		Entered the dropColumns method of the cleaner class.
+2020-08-29/12:26:09		drop column is a success. Exited the drop_column method of the cleaner class
+2020-08-29/12:26:09		Entered the replace_higher_null_values  method of the cleaner class.
+2020-08-29/12:26:09		replace null_values of payer_code is a succes of the cleaner class
+2020-08-29/12:26:09		replace_higher_null_values is a success. Exited the replace_higher_null_values method of the cleaner class
+2020-08-29/12:26:09		Entered the recategorize_age  method of the cleaner class.
+2020-08-29/12:26:09		recategorize is a success . Exited the recategorize_age method of the cleaner class
+2020-08-29/12:26:09		Entered the encode_target_variable  method of the cleaner class.
+2020-08-29/12:26:09		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:26:09		Entered the reduce_levels  method of the cleaner class.
+2020-08-29/12:26:09		reduce_levels is a success. Exited the reduce_levels method of the cleaner class
+2020-08-29/12:26:09		Entered the encodecategoricalvalues method of the cleaner class.
+2020-08-29/12:26:09		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-29/12:26:09		Entered the reduce_skewness method of the cleaner class.
+2020-08-29/12:26:09		remove_skewness is a success. Exited the remove_skewness method of the cleaner class
+2020-08-29/12:26:09		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:26:09		Entered the feature_scaling method of the cleaner class.
+2020-08-29/12:26:09		X_cv_top_6,y have created sucessfully
+2020-08-29/12:26:09		=========== Training Succesfull =============
+2020-08-30/17:21:08		=========== Start of Training =============
+2020-08-30/17:21:08		Entered the dropColumns method of the cleaner class.
+2020-08-30/17:21:08		drop column is a success. Exited the drop_column method of the cleaner class
+2020-08-30/17:21:08		Entered the replace_higher_null_values  method of the cleaner class.
+2020-08-30/17:21:08		replace null_values of payer_code is a succes of the cleaner class
+2020-08-30/17:21:08		replace_higher_null_values is a success. Exited the replace_higher_null_values method of the cleaner class
+2020-08-30/17:21:08		Entered the recategorize_age  method of the cleaner class.
+2020-08-30/17:21:09		recategorize is a success . Exited the recategorize_age method of the cleaner class
+2020-08-30/17:21:09		Entered the encode_target_variable  method of the cleaner class.
+2020-08-30/17:21:09		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-30/17:21:09		Entered the reduce_levels  method of the cleaner class.
+2020-08-30/17:21:09		reduce_levels is a success. Exited the reduce_levels method of the cleaner class
+2020-08-30/17:21:09		Entered the encodecategoricalvalues method of the cleaner class.
+2020-08-30/17:21:09		encode_target_variable is a success. Exited the encode_target_variable method of the cleaner class
+2020-08-30/17:21:09		Entered the reduce_skewness method of the cleaner class.
+2020-08-30/17:21:09		remove_skewness is a success. Exited the remove_skewness method of the cleaner class
+2020-08-30/17:21:09		Entered the feature_scaling method of the cleaner class.
+2020-08-30/17:21:09		Entered the feature_scaling method of the cleaner class.
+2020-08-30/17:21:09		X_cv_top_6,y have created sucessfully
+2020-08-30/17:21:14		=========== Training Succesfull =============

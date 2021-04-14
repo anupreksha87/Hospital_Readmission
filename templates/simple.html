@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+        		
+	html{
+        display: flex;
+        flex-flow: row nowrap;  
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        height:100%;
+        margin: 0;
+        padding: 50;
+        background:#eeeeee;
+    }
+	table {
+		font-size: 22px;
+		font-family: "Times New Roman", Times, serif;
+	}
+
+    body {
+        margin: 0;
+        flex: 0 1 auto;
+        align-self: auto;
+        width: 100%
+        max-width: 900px;
+        height: 100%;
+        max-height: 600px;
+		font-size:medium;
+        background:#fafafa;
+        -webkit-box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 96px 0px rgba(0,0,0,0.75);
+    }
+</style>
+<body>
+<div style="color:white">
+        <h2 style="color:black;"> PREDICTION OF HOSPITAL READMISSION (Bulk Upload) </h2>
+</div>		
+{% for table in tables %}
+            {{ table|safe }}
+{% endfor %}
+</body>
+</html>

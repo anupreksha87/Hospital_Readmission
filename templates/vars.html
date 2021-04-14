@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>JavaScript - Get selected value from dropdown list</title>
+	</head>
+
+	<body>
+
+		<h1>JavaScript - Get selected value from dropdown list</h1>
+
+		<p id="result">United State</p>
+
+		<select name=select1 onchange='OnChange(this.form.select1);'>
+			<option>Value 1</option>
+			<option>Value 2</option>
+			<option>Value 3</option>
+		</select>
+
+
+		<SCRIPT LANGUAGE=javascript>
+<!--
+function OnChange(dropdown)
+{
+    var myindex  = dropdown.selectedIndex
+    var SelValue = dropdown.options[myindex].value
+    var baseURL  = <Some value based on SelValue>
+    top.location.href = baseURL;
+    
+    return true;
+}
+//-->
+</SCRIPT>
+
+	</body>
+
+</html>
